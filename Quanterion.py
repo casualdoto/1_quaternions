@@ -88,3 +88,17 @@ class Quaternion:
         Деление одного кватерниона на другой реализовано как умножение на обратный кватернион.
         """
         return self * other.inverse()
+
+    def rotate_vector(self, vector):
+        """
+        Поворот вектора в пространстве с помощью кватерниона.
+        :param vector: Вектор для поворота, представленный как кортеж (x, y, z).
+        :return: Повернутый вектор в виде кортежа (x, y, z).
+        """
+        # Преобразуем вектор в кватернион с нулевой скалярной частью
+        vec_quaternion = Quaternion(0, *vector)
+        # Выполним поворот: q * v * q^(-1)
+        rotated = self * vec_quaternion * self.inverse()
+        # Возвращаем только векторную часть (x, y, z)
+        return (rotated.x, rotated.y, rotated.z)
+    

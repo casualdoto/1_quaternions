@@ -43,8 +43,9 @@ project_root/
 ## Примеры использования
 
 ### Арифметические операции
+
 ```python
-from Quanterion import Quaternion
+from quaternion import Quaternion
 
 q1 = Quaternion(1, 2, 3, 4)
 q2 = Quaternion(0.5, 1.5, -2, 3)
@@ -68,10 +69,15 @@ print("Поворот вектора (1, 0, 0):", rotated_vector)
 
 ### Установка
 
-**Клонируйте репозиторий**:
-   ```bash
-   git clone https://github.com/casualdoto/1_quaternions
-   cd project_root
+** Клонируйте
+репозиторий **:
+```bash
+git
+clone
+https: // github.com / casualdoto / 1
+_quaternions
+cd
+project_root
    ```
 ### Запуск проекта
 

@@ -23,8 +23,8 @@ shmel9va - Шмелева Мария
 
 ```
 project_root/
-├── Quanterion.py # Реализация класса Quaternion
-├── test_quanterion.py # Тесты для проекта
+├── quaternion.py # Реализация класса Quaternion
+├── test_quaternion.py # Тесты для проекта
 └── reqirements.txt # Требования для проекта
 ```
 

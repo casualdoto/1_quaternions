@@ -116,3 +116,5 @@ vector = (1, 0, 0)
 rotated_vector = q1.rotate_vector(vector)
 
 print("Поворот вектора (1, 0, 0):", rotated_vector)
+```
+

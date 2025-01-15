@@ -83,7 +83,7 @@ pytest test_quaternion.py
 
 ## Тестирование
 
-Тесты для этого проекта находятся в файле `test_quanterion.py` и используют `pytest`. Они покрывают следующие сценарии:
+Тесты для этого проекта находятся в файле `test_quaternion.py` и используют `pytest`. Они покрывают следующие сценарии:
 
 1. **Арифметические операции:** Проверяется корректность выполнения операций сложения, вычитания, умножения и деления между кватернионами.
 
@@ -101,7 +101,7 @@ pytest test_quaternion.py
 
 ### Арифметические операции
 ```python
-from Quanterion import Quaternion
+from quaternion import Quaternion
 
 q1 = Quaternion(1, 2, 3, 4)
 q2 = Quaternion(0.5, 1.5, -2, 3)
